@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewBag-ViewData-TempData", "ViewBag-ViewData-TempData\ViewBag-ViewData-TempData.csproj", "{38C6928D-409F-4321-9AEF-48C4DBA94BA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38C6928D-409F-4321-9AEF-48C4DBA94BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C6928D-409F-4321-9AEF-48C4DBA94BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C6928D-409F-4321-9AEF-48C4DBA94BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C6928D-409F-4321-9AEF-48C4DBA94BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD6B6F6-309B-441A-95B2-37EE30CAE13D}
+	EndGlobalSection
+EndGlobal

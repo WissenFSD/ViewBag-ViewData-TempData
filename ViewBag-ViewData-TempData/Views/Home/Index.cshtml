@@ -1,0 +1,29 @@
+﻿
+<style>
+
+	body{
+
+		background-color:darksalmon;
+	}
+
+</style>
+<div class="text-center">
+	<h1 class="display-4">@ViewBag.Baslik</h1>
+	<p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<ul>
+
+	<span>ViewBag ile olan döngü</span>
+	@foreach (string item in ViewBag.Names)
+	{
+		<li>@item</li>
+	}
+</ul>
+<span>View Data ile olan döngü</span>
+
+<ol>
+	@foreach (var item in ViewData["cities"] as List<string>)
+	{
+		<li>@item</li>
+	}
+</ol>
